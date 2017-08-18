@@ -9,13 +9,13 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 app.get('/articleone', function(req, res) {
-    res.sendFile("artice one is rsdsld");
+    res.sendFile('artice one is rsdsld');
 });
 app.get('/articletwo', function(req, res) {
-    res.sendFile("artice two is rsdsld");
+    res.sendFile('artice two is rsdsld');
 });
 app.get('/articlethree', function(req, res) {
-    res.sendFile("articethree is rsdsld");
+    res.sendFile('articethree is rsdsld');
 });
 
 app.get('/ui/style.css', function (req, res) {
