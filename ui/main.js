@@ -4,9 +4,9 @@ element.innerHTML = "newvalue";
 var img = document .getElementById("madi");
 var marginLeft = 0;
 function moveright(){
-    marginLeft = marginLeft+10;
+    marginLeft = marginLeft + 10;
     img.style.marginLeft = marginLeft+ 'px' 
 }
 img.onclick = function() {
-    var interval = setinterval(moveright,100) 
+    var interval = setinterval(moveright, 100) 
 }
